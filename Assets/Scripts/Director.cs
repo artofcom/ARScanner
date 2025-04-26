@@ -17,7 +17,7 @@ public class Director : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        btnSendData.SetActive(false);
+        //btnSendData.SetActive(false);
         imageTracker.OnQRCodeIdentified += OnQRCodeRecognized;
 
         yield return new WaitForSeconds(1.0f);
